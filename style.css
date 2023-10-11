@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+#First_Navbar{
+    height: 65px;
+    width: 100%;
+    background-color: #131820;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+#imgLogo{
+    height: 60px;
+    margin-left: 1%;
+}
+
+
+#DeliveryAdd{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    font-family: Calibri;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+
+#DeliveryName{
+ color: white;
+ margin-left: 25px;
+}
+
+#CurrentAddress{
+    color: white;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+#DeliveryAdd img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+}
+
+
+#SearchBar{
+    height: 45px;
+    width: 800px;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: white ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#DropDownSearch{
+    background-color: #e6e7e7;
+    height: 100%;
+    width: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.375);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#SearchBar input{
+    height: 100%;
+    width: 700px;
+    font-family: Calibri;
+    font-size: 16px;
+    padding: 6px;
+    
+}
+
+#SearchBar :focus {
+    outline: none;
+  }
+
+
+  #SearchIcon{
+    background-color: #e6e7e7;
+    height: 100%;
+    width: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.375);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #ffbc69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #SearchIcon:hover{
+    background-color: #ee9d3a;
+    cursor: pointer;
+
+  }
+
+  #SearchIcon img{
+    height: 24px;
+  }
+
+
+  #Flag{
+    height: 60px;
+    width: 50px;
+    border: 1px solid red;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #Flag img{
+    height: 20px;
+  }
+
+  #Flag span{
+    color: white;
+    font-family: Calibri;
+    margin-left: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+
+  #helloacc{
+   height: 50px;
+   width: 150px;
+   border: 1px solid red;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
